@@ -1,3 +1,8 @@
+short explanation: 
+load the dependencies specified in the package-lock.json in 'download', changes package-lock.json by replacing links to local files
+
+required packages: awk, wget, jq(not standard for linux)
+
 to load npm dependencies:
 1) prepare your package-lock.json 
 2) run it:
