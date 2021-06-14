@@ -28,7 +28,10 @@ npm i --cache "./cache"
 ```
 2) add '.npmrc' in project and:
 ```sh
-echo 'cache=./cache'
+echo 'cache=./cache  
+offline=true 
+cache-min=9999999' \
+> .npmrc
 ```
 3) now you can send 'cache', 'package-lock.json', '.npmrc' for installation on a remote server
 
